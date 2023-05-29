@@ -1,6 +1,6 @@
 # Parte SERVER 
 ## Comandos
-- DEV
-```
-npm run dev
-```
+- Rodar o servidor:
+```npm run dev```
+- Abrir o Prisma Studio (frontend para exibir a tabela):
+```npx prisma studio```

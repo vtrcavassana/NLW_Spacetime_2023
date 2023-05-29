@@ -1,0 +1,20 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Com 'model' é possível que a mesma estrutura criada
+// possa ser utilizada em outros tipos de bancos
+// como PostgreSQL, MySQL e etc
+model Usuario {
+  // com @id o campo se torna automaticamente a PRIMARY KEY
+  id   String @id @default(uuid())
+  nome String
+}
