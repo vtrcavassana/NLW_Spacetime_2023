@@ -1,5 +1,6 @@
-# Parte SERVER
-## Bibliotecas necessárias (DEV)
-- Typescript
-- @types-node
-- npx tsc
+# Parte SERVER 
+## Comandos
+- DEV
+```
+npm run dev
+```
